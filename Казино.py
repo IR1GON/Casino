@@ -20,6 +20,7 @@ while qweshen != 'нет':
                 num1 = num[0] = randint(1, 3)
                 num2 = num[1] = randint(1, 3)
                 num3 = num[2] = randint(1, 3)
+                print('На ващем счету:', stawka)
                 stawka = int(input('Сколько ставите?(стоп-закончить )'))
                 print('Ставки приняты', stawka)
                 print(num1)
